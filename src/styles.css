@@ -1,5 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
+  background-color: rgb(50, 30, 110);
 }
 .container {
   max-width: 1400px;
@@ -47,11 +48,11 @@ header a {
 footer {
   font-weight: 600;
   text-align: center;
+  color: rgb(236, 220, 220);
 }
 .github-link {
-  text-decoration: none;
-  color: blue;
   font-weight: normal;
+  color: rgb(196, 115, 115);
 }
 @media (max-width: 900px) {
   header {
