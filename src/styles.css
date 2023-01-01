@@ -188,6 +188,17 @@ footer a {
   background-color: rgb(4, 4, 82);
   text-decoration: none;
 }
+.video {
+  width: 100%;
+  aspect-ratio: 21 / 9;
+  margin: 0 auto;
+}
+
+.grid-2-columns-video {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 15px;
+}
 @media (max-width: 1000px) {
   header {
     padding: 60px 0;
@@ -219,5 +230,8 @@ footer a {
   }
   .embed {
     aspect-ratio: 16 / 9;
+  }
+  .grid-2-columns-video {
+    grid-template-columns: 1fr;
   }
 }
