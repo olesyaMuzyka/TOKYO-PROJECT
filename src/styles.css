@@ -152,16 +152,8 @@ footer a {
 .text-center {
   text-align: center;
 }
-.cafe-img-1 {
-  max-width: 39%;
-  display: block;
-}
-.cafe-img-2 {
-  max-width: 55%;
-  display: block;
-}
-.cafe-img-3 {
-  max-width: 42%;
+.cafe-img {
+  width: 100%;
   display: block;
 }
 .grid-3-columns-cards {
@@ -171,11 +163,18 @@ footer a {
   background: white;
   margin-top: 20px;
 }
+.card-header.grid {
+  grid-gap: 0;
+}
 .card-body {
   padding: 30px;
 }
 .card-body p {
   font-size: 15px;
+}
+.embed {
+  width: 100%;
+  aspect-ratio: 1 /1;
 }
 .btn {
   display: block;
@@ -214,5 +213,11 @@ footer a {
   }
   section {
     padding: 30px;
+  }
+  .card-header img {
+    display: none;
+  }
+  .embed {
+    aspect-ratio: 16 / 9;
   }
 }
